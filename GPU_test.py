@@ -1,4 +1,8 @@
 import tensorflow as tf
+import time
+
+start = time.time()
+
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot = True)
 
@@ -63,3 +67,6 @@ def train_neural_network(x):
         print('Accuracy:',accuracy.eval({x:mnist.test.images, y:mnist.test.labels}))
 
 train_neural_network(x)
+
+print('----------------------------')
+print(time.time()-start)
