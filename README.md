@@ -9,7 +9,7 @@
     * https://www.microsoft.com/en-gb/download/details.aspx?id=48145
   * "pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.1-cp35-cp35m-win_amd64.whl"
   * Test installation:
-  >>> import tensorflow as tf
-  >>> hello = tf.constant('Hello, TensorFlow!')
-  >>> sess = tf.Session()
-  >>> print(sess.run(hello))
+   *  >>> import tensorflow as tf
+   *  >>> hello = tf.constant('Hello, TensorFlow!')
+   *  >>> sess = tf.Session()
+   *  >>> print(sess.run(hello))
