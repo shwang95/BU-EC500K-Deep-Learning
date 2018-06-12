@@ -10,13 +10,9 @@
 
 * Cudnn: 5.1
 
-* Sklearn: 0.19.1
-
 * Python: 3.6
 
 * Anaconda: 3-5.1.0
-
-* _Digital signal procession tool_
 
 ## Install tensorflow with GPU support
 
