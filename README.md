@@ -43,8 +43,8 @@ Example:
 | 980M | 8.0 | 5.1 | 3.6 | 1.2.0 |
 | 1070 | 8.0 | 6.0 | 3.6 | 1.4.0 |
 
-* Test installation:
-  *  import tensorflow as tf
-  *  hello = tf.constant('Hello, TensorFlow!')
-  *  sess = tf.Session()
-  *  print(sess.run(hello))
+## Test installation:
+*  import tensorflow as tf
+*  hello = tf.constant('Hello, TensorFlow!')
+*  sess = tf.Session()
+*  print(sess.run(hello))
